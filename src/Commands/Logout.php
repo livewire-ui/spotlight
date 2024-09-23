@@ -12,9 +12,14 @@ class Logout extends SpotlightCommand
 
     protected string $description = 'Logout out of your account';
 
-    public function execute(Spotlight $spotlight, StatefulGuard $guard): void
+    public function execute(
+        Spotlight $spotlight
+        //, StatefulGuard $guard
+    ): void
     {
-        $guard->logout();
+        // if using StatefulGuard
+        //$guard->logout();
+        auth()->logout();
         $spotlight->redirect('/');
     }
 }
