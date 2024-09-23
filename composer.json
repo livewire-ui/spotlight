@@ -1,5 +1,5 @@
 {
-    "name": "DaviMenezes/spotlight",
+    "name": "dvi/spotlight",
     "description": "Fork of wire-elements/spotlight. Please see original repository. Livewire component that provides Spotlight/Alfred-like functionality to your Laravel application.",
     "keywords": [
         "livewire-ui",
